@@ -17,8 +17,8 @@ const RFDewiExtended = localfont({
   variable: "--font-RFDewiExtended",
 });
 export const metadata: Metadata = {
-  title: "DIA",
-  description: "DIA Agency App",
+  title: "RIAA",
+  description: "RIAA Agency App",
 };
 
 export default function RootLayout({

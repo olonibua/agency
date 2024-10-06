@@ -11,7 +11,7 @@ const SignInForm = () => {
     <div className="w-full max-w-md">
       <h2 className="text-3xl font-bold mb-6">Sign in</h2>
       <p className="text-gray-600 mb-8">
-        Enter your credentials to login to the DIA dashboard
+        Enter your credentials to login to the RIAA dashboard
       </p>
       <form>
         <div className="space-y-4">
@@ -37,7 +37,10 @@ const SignInForm = () => {
                 Remember me
               </label>
             </div>
-            <a href="/onboarding/forget-password" className="text-sm text-gray-600 hover:underline">
+            <a
+              href="/onboarding/forget-password"
+              className="text-sm text-gray-600 hover:underline"
+            >
               Forgot password
             </a>
           </div>

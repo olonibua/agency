@@ -42,7 +42,7 @@ const Sidebar = ({ currentPath }: { currentPath: string }) => {
       } min-h-screen p-4 flex flex-col transition-all duration-300`}
     >
       <div className="mb-8 flex items-center justify-between">
-        {isOpen && <h1 className="text-2xl font-bold">DIA</h1>}
+        {isOpen && <h1 className="text-2xl font-bold">RIAA</h1>}
         <button
           onClick={toggleSidebar}
           className="p-1 rounded-full hover:bg-gray-700"
@@ -56,7 +56,7 @@ const Sidebar = ({ currentPath }: { currentPath: string }) => {
             key={item.href}
             href={item.href}
             className={`flex items-center py-3 px-4 rounded mb-2 w-full text-left hover:bg-gray-700 ${
-              pathname === item.href ? 'bg-gray-700' : ''
+              pathname === item.href ? "bg-gray-700" : ""
             } group`}
           >
             <Image
@@ -64,8 +64,8 @@ const Sidebar = ({ currentPath }: { currentPath: string }) => {
               alt={item.label}
               className={`mr-3 h-5 w-5 transition-colors ${
                 pathname === item.href
-                  ? 'brightness-0 invert'
-                  : 'group-hover:brightness-0 group-hover:invert'
+                  ? "brightness-0 invert"
+                  : "group-hover:brightness-0 group-hover:invert"
               }`}
             />
             {isOpen && item.label}
@@ -77,16 +77,16 @@ const Sidebar = ({ currentPath }: { currentPath: string }) => {
           <Link
             href="/dashboard/profile"
             className={`flex items-center p-4 cursor-pointer w-full text-left hover:bg-gray-700 ${
-              pathname === '/dashboard/profile' ? 'bg-gray-700' : ''
+              pathname === "/dashboard/profile" ? "bg-gray-700" : ""
             } group`}
           >
             <Image
               src={ProfileIcon}
               alt="profile"
               className={`mr-3 h-5 w-5 transition-colors ${
-                pathname === '/dashboard/profile'
-                  ? 'brightness-0 invert'
-                  : 'group-hover:brightness-0 group-hover:invert'
+                pathname === "/dashboard/profile"
+                  ? "brightness-0 invert"
+                  : "group-hover:brightness-0 group-hover:invert"
               }`}
             />
             <span className="ml-2">Profile</span>
@@ -97,7 +97,7 @@ const Sidebar = ({ currentPath }: { currentPath: string }) => {
             <Link
               href="/dashboard/settings"
               className={`w-full text-left py-2 px-4 flex items-center hover:bg-gray-700 ${
-                pathname === '/dashboard/settings' ? 'bg-gray-700' : ''
+                pathname === "/dashboard/settings" ? "bg-gray-700" : ""
               }`}
             >
               <Settings className="mr-3 h-5 w-5" />

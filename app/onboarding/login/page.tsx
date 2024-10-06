@@ -18,7 +18,7 @@ const LoginPage = () => {
         </div>
       </div>
       <div className="absolute bottom-8 left-8 text-white">
-        <div className="text-4xl font-bold mb-2">DIA</div>
+        <div className="text-4xl font-bold mb-2">RIAA</div>
         <div className="flex space-x-2">
           <div className="w-6 h-6 bg-white rounded-full"></div>
           <div className="w-6 h-6 bg-white rounded-full"></div>

@@ -32,7 +32,7 @@ const page = () => {
             <h1 className="text-3xl md:text-4xl font-bold mb-4">
               Welcome to the
               <br />
-              DIA agent dashboard
+              RIAA agent dashboard
             </h1>
             <p className="text-gray-600">
               This is the agent dashboard where you will manage collaborations
