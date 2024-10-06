@@ -145,7 +145,7 @@ const TalentsList: React.FC = () => {
                 <td className="py-4 px-6">
                   <div className="flex -space-x-2">
                     {talent.agents.map((agent, i) => (
-                      <img
+                      <Image
                         key={i}
                         src={agent}
                         alt={`Agent ${i + 1}`}
@@ -169,7 +169,7 @@ const TalentsList: React.FC = () => {
         {talents.map((talent, index) => (
           <div key={index} className="border-b last:border-b-0 p-4">
             <div className="flex items-center mb-2">
-              <img
+              <Image
                 src={`/path/to/${talent.name
                   .toLowerCase()
                   .replace(" ", "_")}.jpg`}
@@ -199,7 +199,7 @@ const TalentsList: React.FC = () => {
                 <span className="font-semibold">Agents:</span>
                 <div className="flex -space-x-2 mt-1">
                   {talent.agents.map((agent, i) => (
-                    <img
+                    <Image
                       key={i}
                       src={agent}
                       alt={`Agent ${i + 1}`}

@@ -21,10 +21,10 @@ const PreviewSection = () => {
           <span>👁️ 113k</span>
         </div>
         <p className="text-xs sm:text-sm mb-4">
-          "Embracing the sunshine and salty air, every wave brings a new
-          adventure 🌊 There's nothing like the feeling of the sand between my
+          &ldquo;Embracing the sunshine and salty air, every wave brings a new
+          adventure 🌊 There&apos;s nothing like the feeling of the sand between my
           toes and the ocean breeze in my hair.#SummerGlow #LivingMyBestLife
-          #OceanDreams #SunKissed"
+          #OceanDreams #SunKissed&rdquo;
         </p>
         <h3 className="font-semibold mb-2 text-sm">Insights</h3>
         <table className="w-full text-xs sm:text-sm">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface ActivityCardProps {
@@ -22,7 +23,7 @@ const ActivityCard: React.FC<ActivityCardProps> = ({
           <h3 className="font-semibold">{title}</h3>
           <p className="text-sm text-gray-600">{subtitle}</p>
         </div>
-        <img
+        <Image
           src={imageUrl}
           alt={title}
           className="w-10 h-10 rounded-full object-cover"

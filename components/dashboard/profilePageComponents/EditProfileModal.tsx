@@ -2,6 +2,7 @@ import React from "react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import Image from "next/image";
 
 interface EditProfileModalProps {
   isOpen: boolean;
@@ -26,7 +27,7 @@ const EditProfileModal: React.FC<EditProfileModalProps> = ({
         <div className="space-y-4">
           <div>
             <p className="mb-2">Change profile photo</p>
-            <img
+            <Image
               src="/profile-picture.png"
               alt="Profile"
               className="w-20 h-20 sm:w-24 sm:h-24 object-cover rounded-lg shadow-md"

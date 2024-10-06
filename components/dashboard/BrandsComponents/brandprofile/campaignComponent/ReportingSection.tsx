@@ -9,6 +9,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Progress } from "@/components/ui/progress";
+import Image from "next/image";
 
 interface ReportOverview {
   engagement: string;
@@ -155,7 +156,7 @@ const TopContentCard: React.FC<{ topContent: TopContent[] }> = ({
     <CardContent>
       {topContent.map((content, index) => (
         <div key={index} className="flex items-center space-x-4 mb-4">
-          <img
+          <Image
             src={content.imageUrl}
             alt={content.username}
             className="w-12 h-12 rounded-full"
@@ -183,7 +184,7 @@ const InfluencerRankingsCard: React.FC<{
     <CardContent>
       {influencerRankings.map((influencer, index) => (
         <div key={index} className="flex items-center space-x-4 mb-4">
-          <img
+          <Image
             src={influencer.imageUrl}
             alt={influencer.username}
             className="w-12 h-12 rounded-full"

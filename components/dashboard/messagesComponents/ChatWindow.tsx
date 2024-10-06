@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ChatMessage } from "../Messages";
 import { FaPaperPlane, FaPaperclip, FaSmile, FaArrowLeft } from "react-icons/fa";
+import Image from "next/image";
 
 interface ChatWindowProps {
   selectedChat: ChatMessage | null;
@@ -8,7 +9,7 @@ interface ChatWindowProps {
 }
 
 const Avatar = ({ src, alt }: { src: string; alt: string }) => (
-  <img src={src} alt={alt} className="w-8 h-8 rounded-full border-2 border-white" />
+  <Image src={src} alt={alt} className="w-8 h-8 rounded-full border-2 border-white" />
 );
 
 const ChatBubble = ({ message, isOwn }: { message: ChatMessage['messages'][0]; isOwn: boolean }) => (

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 // Define a type for the talent data
@@ -36,7 +37,7 @@ const YourTalents: React.FC = () => {
         {talents.map((talent, index) => (
           <li key={index} className="flex items-center justify-between">
             <div className="flex items-center">
-              <img
+              <Image
                 src={talent.avatar}
                 alt={talent.name}
                 className="w-8 h-8 rounded-full mr-3"

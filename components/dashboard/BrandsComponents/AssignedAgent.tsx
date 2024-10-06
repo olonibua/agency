@@ -31,7 +31,7 @@ const AssignedAgent: React.FC<BasicInformationProps> = ({ initialData }) => {
           </div>
           <div className="flex items-center justify-between">
             <div className="flex items-center">
-              <img
+              <Image
                 src="/findtalenticons/talent1.png"
                 alt="Phoenix Barker"
                 className="w-6 h-6 sm:w-8 sm:h-8 rounded-full mr-2"

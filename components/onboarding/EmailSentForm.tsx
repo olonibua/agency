@@ -8,7 +8,7 @@ const EmailSentForm = () => {
       <div className="max-w-md mx-auto">
         <h2 className="text-3xl font-bold mb-6">Email successfully sent</h2>
         <p className="text-gray-600 mb-8">
-          We've sent you instructions to reset your password. If you don't see
+          We&apos;ve sent you instructions to reset your password. If you don&apos;t see
           the email soon, please check your spam folder.{" "}
         </p>
         <div className="mb-6"></div>

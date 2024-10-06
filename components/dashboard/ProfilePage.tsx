@@ -6,6 +6,7 @@ import Details from "./profilePageComponents/Details";
 import TalentsList from "./profilePageComponents/TalentsList";
 import BrandsList from "./profilePageComponents/Brands";
 import EditProfileModal from "./profilePageComponents/EditProfileModal";
+import Image from "next/image";
 
 interface ProfilePageProps {
   pageTitle: string;
@@ -22,7 +23,7 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ pageTitle }) => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
         <div className="lg:col-span-1">
           <div className="bg-white rounded-lg shadow-md p-4 sm:p-6">
-            <img
+            <Image
               src="/profile-picture.png"
               alt="Profile"
               className="w-full h-48 sm:h-64 object-cover rounded-lg mb-4"
